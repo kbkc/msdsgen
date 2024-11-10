@@ -1,0 +1,104 @@
+/*
+padding:5px; 
+border-spacing:5pxpadding:5px; 
+border-spacing:5pxpadding:5px; 
+border-spacing:5pxpadding:5px; 
+border-spacing:5pxborder-spacing: 0;
+border-spacing: 0;
+border-spacing: 0;
+*/
+/*@page { size: 210.01mm 297mm; margin-left: 10.58mm; margin-right: 9.88mm; margin-top: 5.01mm; margin-bottom: 11.75mm }*/
+
+
+
+@media screen {
+        .dfooter {
+            display: none;
+        }
+    }
+@media print {
+	
+        .dfooter {
+/*			 position: absolute; bottom: 0; height: 50px; margin-top: 2px;*/
+            position: fixed;
+            bottom: 0;
+			text-align: right;
+			right: 0px;
+			font-size: 12px;
+			font-weight: bold;
+			
+			
+/*			margin: auto  auto 1em auto;*/
+        }
+  table { page-break-after:auto }
+  tr    { page-break-inside:avoid; page-break-after:auto; }
+  td    { page-break-inside:avoid; page-break-after:auto }
+  thead { display:table-header-group }
+  tfoot { display:table-footer-group }
+
+    }
+
+
+p { line-height: 100%; 
+	text-align: left; 
+	orphans: 0; 
+	widows: 0; 
+	margin-bottom: 0mm; 
+}
+
+
+h1 { 
+	text-transform: uppercase; 
+	line-height: 100%; 
+	text-align: left; 
+	page-break-inside: avoid; orphans: 0; 
+	widows: 0; margin-left: 6.3mm; 
+	text-indent: -5mm; 
+	margin-top: 8mm; margin-bottom: 4mm; 
+	border-bottom: 1px solid #000000;  
+	padding-bottom: 0.35mm;
+	page-break-after: avoid ;
+	font-size: 18px;
+}
+
+
+h2 { 
+	font-size: 16px;
+	margin-top: 2mm; 
+	margin-bottom: 1mm; 
+
+}
+
+rh1 {
+	font-size: 25px;
+	font-family: inherit;
+/*	font-family:  "Arial";*/
+	font-family:  "Noto Sans";
+	font-weight: bold;
+/*	font-size:3vw;*/
+}
+
+a:link { color: #0000ff; text-decoration: underline }
+a:visited { color: #800080; text-decoration: underline }
+		
+
+.table_ing { border-collapse: collapse; }
+.table_ing th, .table_ing td { padding: 3px; border: solid 1px; }
+.table_ing th { background-color: lightblue; }
+
+.table_def {
+   /* cellpadding: 17px;
+    cellspacing: 10px;*/
+    padding: 3;
+    border-spacing: 4;
+}
+
+
+.relative {
+  position: relative;
+
+}
+
+.clear {
+    clear: both;
+}		

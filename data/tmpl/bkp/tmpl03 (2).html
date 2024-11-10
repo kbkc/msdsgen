@@ -1,0 +1,442 @@
+﻿<html>
+<head>
+	
+	<link rel="stylesheet" href="style01.css"/>
+</head>
+<body>
+	<div>
+<p>&nbsp;</p>
+
+<table border="0" cellspacing="0" style="border-collapse:collapse; width:100%">
+	<tbody>
+		<tr>
+			<td style="width:50%">
+<rh1>{{manuf}}</rh1>
+			</td>
+			<td style="text-align:right; width:50%"><strong>MSDS rev. {{ver}} , date : {{date}}</strong></td>
+		</tr>
+	</tbody>
+</table>
+	</div>
+<h1>1.IDENTIFICATION OF THE SUBSTANCE / PREPARATION AND OF THE COMPANY / UNDERTAKING</h1>
+<table width="433" dir="ltr" class="table_def" style="width:912px;">
+	<tbody>
+		<tr>
+			<td width="168" >Product Name</td>
+			<td width="732">{{pname}}</td>
+		</tr>
+		<tr>
+			<td>Chemical Name</td>
+			<td>N/A</td>
+		</tr>
+		<tr>
+			<td>Family</td>
+			<td>{{pfamily}}</td>
+		</tr>
+		<tr>
+			<td>Product Use</td>
+			<td>{{puse}}</td>
+		</tr>
+		<tr>
+			<td>Manufacturer</td>
+			<td >{{manuf}}</td>
+		</tr>
+		<tr>
+			<td>Information Contacts</td>
+			<td>{{contact}}</td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td>{{addr}}</td>
+		</tr>
+		<tr>
+			<td colspan="2">Emergency Phone Number: {{emnumer}}</td>
+		</tr>
+  </tbody>
+</table>
+
+<h1>2. Hazards Identification</h1>
+<h2>EMERGENCY OVERVIEW</h2>
+		<div class="relative">
+	<div>
+<table class="table_def" dir="ltr" style="width:312px;float: left;">
+<!--<table  class="table_def" cellspacing="0" cellpadding="1">-->
+  <tbody>
+	<tr>
+    <td width="142">Physical state:</td><td width="158">{{physical _state}}</td></tr>
+	<tr>
+	  <td>Color:</td>
+	<td>{{colour}}</td></tr>
+	<tr>
+	  <td>Odor:</td>
+	<td>{{odour}}</td></tr>
+	<tr>
+	  <td>Personal Protection:</td><td>See Section 8</td></tr>
+  </tbody>
+</table>		
+		</div>
+		<div>
+<table  class="table_def" >
+  <tbody>
+	<tr>
+	  <td>Health:</td><td>1*</td></tr>
+	<tr>
+    <td>Flammability:</td><td>2</td></tr>
+	<tr>
+    <td>Physical hazard:</td><td>1</td></tr>
+  </tbody>
+</table>			
+	</div>
+</div>
+<div style="float: left"><strong>WARNING: </strong>HARMFUL IF SWALLOWED, ABSORBED THROUGH SKIN OR INHALED.DO NOT SPRAY. DO NOT HEAT.MAY CAUSE ALLERGIC SKIN REACTION.CAUSES EYE, SKIN AND RESPIRATORY TRACT IRRITATION</div>
+<br>
+<table  class="table_def" cellspacing="0" cellpadding="1">
+<tbody>
+<tr><td bgcolor="#ffffff">Relevant routes of exposure:</td><td bgcolor="#ffffff">Skin, Inhalation, Eyes</td></tr>
+<tr><td bgcolor="#ffffff"><strong>Potential Health Effects</strong></td><td bgcolor="#ffffff"></td></tr>
+<tr><td bgcolor="#ffffff">Skin contact:</td><td bgcolor="#ffffff">Contact skin will cause irritation.</td></tr>
+<tr><td bgcolor="#ffffff">Eye contact:</td><td bgcolor="#ffffff">Contact with eyes will cause irritation.</td></tr>
+<tr><td colspan="2" bgcolor="#ffffff">NOTE: Refer to Section 11, Toxicological Information for Details</td></tr>
+</tbody>
+</table>
+
+<h1>3. Composition/Information on Ingredients</h1>
+<p>{{ing}}</p>	
+<h1>4. First Aid Measures</h1>
+
+	<h2>4.1. Description of first aid measures</h2>
+
+<table class="table_def" style="width:732px">
+	<tbody>
+		<tr>
+			<td>Inhalation:</td>
+			<td>Move affected person to fresh air at once. Get medical attention if any discomfort continues. Remove contaminated clothing and shoes. Wash clothing before reuse. Get immediate medical attention if symptoms occur.</td>
+		</tr>
+		<tr>
+			<td>Skin contact:</td>
+			<td>Wash skin thoroughly with soap and water.</td>
+		</tr>
+		<tr>
+			<td>Eye contact:</td>
+			<td>Rinse immediately with plenty of water. Remove any contact lenses and open eyelids wide apart. Continue to rinse for at least 15 minutes. Get medical attention if any discomfort continues.</td>
+		</tr>
+		<tr>
+			<td>Ingestion:</td>
+			<td>If necessary, rinse mouth and provide fresh air. Get medical attention if any discomfort continues.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2>4.2. Most important symptoms and effects, both acute and delayed</h2>
+<br>
+<h2>4.3. Indication of any immediate medical attention and special treatment needed</h2>
+Notes for the doctor: No specific recommendations
+<h1>5. Fire Fighting Measures</h1>
+
+<table class="table_def" style="width:732px">
+	<tbody>
+		<tr>
+			<td colspan="2"><h2>5.1.&nbsp;&nbsp; &nbsp;Extinguishing media</h2></td>
+		</tr>
+		<tr>
+			<td style="width:305px">Suitable extinguishing media</td>
+			<td style="width:393px">{{s5-exting-media}}</td>
+		</tr>
+		<tr>
+			<td style="width:305px">Unsuitable extinguishing media</td>
+			<td style="width:393px">{{s5-unexting-media}}</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:305px"><h2>5.2.&nbsp;&nbsp; &nbsp;Special hazards arising from the substance or mixture</h2></td>
+		</tr>
+		<tr>
+			<td style="width:305px">Hazardous combustion products</td>
+			<td style="width:393px">{{s5-hazard-combination}}</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="width:305px"><h2>5.3.&nbsp;&nbsp; &nbsp;Advice for firefighters</h2></td>
+		</tr>
+		<tr>
+			<td style="width:305px">Protective actions during firefighting</td>
+			<td style="width:393px">Containers close to fire should be removed or cooled with water.</td>
+		</tr>
+		<tr>
+			<td style="width:305px">Special protective equipment for firefighters</td>
+			<td style="width:393px">Wear positive-pressure self-contained breathing apparatus (SCBA) and appropriate protective clothing.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>6. Accidental Release Measures</h1>
+
+<table class="table_def" style="width:732px">
+	<tbody>
+		<tr>
+			<td colspan="2"><h2>6.1. Personal precautions, protective equipment and emergency procedures</h2></td>
+		</tr>
+		<tr>
+			<td style="width:188px">Personal precautions</td>
+			<td style="width:510px">Wear suitable protective equipment, including gloves, goggles/face shield, respirator, boots, clothing or apron, as appropriate. In case of spills, beware of slippery floors and surfaces.</td>
+		</tr>
+		<tr>
+			<td colspan="2"><h2>6.2. Environmental precautions</h2></td>
+		</tr>
+		<tr>
+			<td style="width:188px">Environmental precautions</td>
+			<td style="width:510px">No negative effects on the aquatic environment are known.</td>
+		</tr>
+		<tr>
+			<td colspan="2"><h2>6.3. Methods and material for containment and cleaning up</h2></td>
+		</tr>
+		<tr>
+			<td style="width:188px">Methods for cleaning up</td>
+		  <td style="width:510px">
+		  Clean-up  Methods: Refer to Section 8 &quot;Exposure Controls / Personal Protection&quot;  prior to clean up. {{6-3-clean}}</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>7. Handling and Storage</h1>
+
+<table class="table_def" style="width:732px">
+	<tbody>
+		<tr>
+			<td colspan="2"><h2>7.1. Precautions for safe handling</h2></td>
+		</tr>
+		<tr>
+			<td>Usage precautions</td>
+			<td>Handing ：Prevent contact with eyes, skin and clothing. Do not breathe vapor and mist. Wash thoroughly after handling. DO NOT heat or spray. Use only with adequate ventilation. Refer to Section 8. Use only in area provided with appropriate exhaust ventilation.</td>
+		</tr>
+		<tr>
+			<td>Incompatible products:</td>
+			<td>Refer to Section 10.</td>
+		</tr>
+		<tr>
+			<td colspan="2"><h2>7.2. Conditions for safe storage, including any incompatibilities</h2></td>
+		</tr>
+		<tr>
+			<td>Storage precautions</td>
+			<td>For safe storage, store at or below 26°C (80°F). If exposed  to natural light,  LED, UVA, UVB or UV any light, material  will cure very quickly. Keep in a cool, well ventilated area away from heat, sparks and open flame. Keep container tightly closed until ready for use. Store original container in a dry, cool and well-ventilated place. Protect from freezing and direct sunlight.</td>
+		</tr>
+		<tr>
+			<td>Storage class</td>
+			<td>Unspecified storage.</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h1>8. Exposure Controls / Personal Protective Equipment</h1>
+
+<h2>8.1. Control parameters<br />
+8.2. Exposure controls<br />
+Protective equipment</h2>
+
+<table class="table_def" style="width:732px">
+	<tbody>
+		<tr>
+			<td style="width:109px"><img src="./tmpl-SPA-01_files/face.png" style="height:82px; width:82px" /></td>
+			<td style="width:140px"><img src="./tmpl-SPA-01_files/body.png" style="height:82px; width:82px" /></td>
+		  <td ><img src="./tmpl-SPA-01_files/hands.png" style="height:82px; width:82px" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="table_def" style="width:732px">
+	<tbody>
+		<tr>
+			<td>Eye/face protection</td>
+			<td>Eyewear complying with an approved standard should be worn if a risk assessment indicates eye contact is possible. The following protection should be worn: Chemical splash goggles or face shield.</td>
+		</tr>
+		<tr>
+			<td>Hand protection</td>
+			<td>Chemical-resistant, impervious gloves complying with an approved standard should be worn if a risk assessment indicates skin contact is possible.</td>
+		</tr>
+		<tr>
+			<td>Other skin and body protection</td>
+			<td>Wear appropriate clothing to prevent any possibility of skin contact. Wear apron or protective clothing in case of contact.</td>
+		</tr>
+		<tr>
+			<td>Hygiene measures</td>
+			<td>No specific hygiene procedures recommended but good personal hygiene practices should always be observed when working with chemical products.</td>
+		</tr>
+		<tr>
+			<td>Respiratory protection</td>
+			<td>No specific recommendations. Respiratory protection may be required if excessive airborne contamination occurs.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>9. Physical and Chemical Properties</h1>
+
+<h2>9.1. Information on basic physical and chemical properties</h2>
+
+<table class="table_def" style="width:439.616px">
+	<tbody>
+		<tr>
+			<td>Appearance</td>
+			<td style="width:257px">{{physical _state}}</td>
+		</tr>
+		<tr>
+			<td>Colour</td>
+			<td style="width:257px">{{colour}}</td>
+		</tr>
+		<tr>
+			<td>Odour</td>
+			<td style="width:257px">{{odour}}</td>
+		</tr>
+		<tr>
+			<td>Relative density</td>
+			<td style="width:257px">{{density}}</td>
+		</tr>
+		<tr>
+		  <td>pH</td>
+		  <td style="width:257px">{{pH}}</td>
+	  </tr>
+	</tbody>
+</table>
+
+<h2>9.2. Other information</h2>
+<p>&nbsp;</p>
+
+<h1>10. Stability and Reactivity</h1>
+<h2>10.1.&nbsp;&nbsp; &nbsp;Reactivity</h2>
+	{{10-1-reactivity}}
+<h2>10.2.&nbsp;&nbsp; &nbsp;Chemical stability</h2>
+	{{10-2-stability}}
+<h2>10.3.&nbsp;&nbsp; &nbsp;Possibility of hazardous reactions</h2>
+	{{10-3-hazard-react}}
+<h2>10.4.&nbsp;&nbsp; &nbsp;Conditions to avoid</h2>
+	{{10-4-cond-avoid}}
+<h2>10.5. Incompatible materials</h2>
+	{{10-5-incompat}}
+<h2>10.6. Hazardous decomposition products</h2>
+	{{10-6-hazdecom}}
+
+
+
+<h1>11. Toxicological Information</h1>
+
+<h2>11.1. Information on toxicological effects</h2>
+
+<table class="table_def">
+	<tbody>
+		<tr>
+			<td>General information</td>
+			<td>No specific health hazards known.</td>
+		</tr>
+		<tr>
+			<td>Inhalation</td>
+			<td>No specific health hazards known.</td>
+		</tr>
+		<tr>
+			<td>Ingestion</td>
+			<td>No specific health hazards known.No harmful effects expected from quantities likely to be ingested by accident.</td>
+		</tr>
+		<tr>
+			<td>Skin contact</td>
+			<td>No specific health hazards known.</td>
+		</tr>
+		<tr>
+			<td>Eye contact</td>
+			<td>May cause irritation and smarting.</td>
+		</tr>
+		<tr>
+			<td>Acute and chronic health hazards</td>
+			<td>No specific health hazards known.</td>
+		</tr>
+		<tr>
+			<td>Medical symptoms</td>
+			<td>No specific symptoms noted, but this chemical may still have adverse health impact, either in general or on certain individuals.</td>
+		</tr>
+		<tr>
+			<td >Medical considerations</td>
+			<td >May cause allergic contact eczema. Prolonged or repeated exposure may cause the following adverse effects: Allergic rash. Get medical attention.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>12. Ecological Information</h1>
+
+<p>Ecotoxicity:&nbsp; &nbsp; No negative effects on the aquatic environment are known.</p>
+<h2>12.1. Toxicity&nbsp;</h2>
+<h2>12.2. Persistence and degradability</h2>
+Persistence and degradability: The product is expected to be biodegradable.
+<h2>12.3. Bioaccumulative potential</h2>
+Bioaccumulative potential:&nbsp;&nbsp; &nbsp;The product does not contain any substances expected to be bioaccumulating.<br />
+<h2>12.4. Mobility in soil</h2>
+Mobility:&nbsp;&nbsp; &nbsp;The product is insoluble in water.
+<h2>12.5. Results of PBT and vPvB assessment</h2>
+Results of PBT and vPvB assessment: This product does not contain any substances classified as PBT or vPvB
+<h2>12.6. Other adverse effects</h2>
+
+<h1>13. Disposable Considerations</h1>
+
+<h2>13.1. Waste treatment methods</h2>
+
+<table class="table_def" style="width:651.616px">
+	<tbody>
+		<tr>
+			<td style="width:144px">General information</td>
+			<td style="width:473px">Waste is suitable for incineration.</td>
+		</tr>
+		<tr>
+			<td style="width:144px">Disposal methods</td>
+			<td style="width:473px">Dispose of waste to licensed waste disposal site in accordance with the requirements of the local Waste Disposal Authority</td>
+		</tr>
+	</tbody>
+</table>
+
+<h1>14. Transport Information</h1>
+
+<p>General:&nbsp;&nbsp; &nbsp;The product is not covered by international regulations on the transport of dangerous goods (IMDG, IATA, ADR/RID).<br />
+<h2>14.1.&nbsp;&nbsp; &nbsp;UN number&nbsp;</h2>
+Not applicable.<br />
+<h2>14.2.&nbsp;&nbsp; &nbsp;UN proper shipping name&nbsp;</h2>
+Not applicable.<br />
+<h2>14.3.&nbsp;&nbsp; &nbsp;Transport hazard class(es)&nbsp;</h2>
+No transport warning sign required.<br />
+<h2>14.4.&nbsp;&nbsp; &nbsp;Packing group&nbsp;</h2>
+Not applicable.<br />
+<h2>14.5.&nbsp;&nbsp; &nbsp;Environmental hazards</h2>
+Environmentally hazardous substance/marine pollutant: No.<br />
+<h2>14.6.&nbsp;&nbsp; &nbsp;Special precautions for user&nbsp;</h2>
+Not applicable.<br />
+<h2>14.7.&nbsp;&nbsp; &nbsp;Transport in bulk according to Annex II of MARPOL and the IBC Code</h2>
+Not applicable.</p>
+
+
+<h1>15. Regulatory Information</h1>
+
+<h2>15.1. Safety, health and environmental regulations/legislation specific for the substance or mixture</h2>
+
+<table class="table_def" style="width:651.616px">
+	<tbody>
+		<tr>
+			<td style="width:144px">EU legislation</td>
+			<td style="width:473px">Regulation (EC) No 1272/2008 of the European Parliament and of the Council of 16 December 2008 on classification, labelling and packaging of substances and mixtures (as amended).<br />
+			Regulation (EC) No 1907/2006 of the European Parliament and of the Council of 18 December 2006 concerning the Registration, Evaluation, Authorisation and Restriction of Chemicals (REACH) (as amended).</td>
+		</tr>
+		<tr>
+			<td style="width:144px">Guidance</td>
+			<td style="width:473px">Workplace Exposure Limits EH40.&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<h1>16. Other Information</h1>
+
+<p>DISCLAIMER: The data contained herein are furnished for information only and are believed to be reliable. However, {{manuf}} does not assume responsibility for any results obtained by persons over whose methods {{manuf}} has no control. It is the user&#39;s responsibility to determine the suitability of ReformA&#39;s products or any production methods mentioned herein for a particular purpose, and to adopt such precautions as may be advisable for the protection of property and persons against any hazards that may be involved in the handling and use of any of {{manuf}}&#39;s products. In light of the foregoing, {{manuf}} specifically disclaims all warranties, express or implied, including warranties of merchantability and fitness for a particular purpose, arising from sale or use of {{manuf}}&#39;s products. {{manuf}} further disclaims any liability for consequential or incidental damages of any kind, including lost profits.</p>
+<p>
+
+</p>
+
+<div class="dfooter">
+  {{manuf}}&nbsp;&nbsp;&nbsp;MSDS rev. {{ver}} , date : {{date}}
+</div>
+
+</body>
+</html>
+
+
