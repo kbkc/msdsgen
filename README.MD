@@ -21,9 +21,9 @@ The generated documents are located in the folder data/out/
 ------------------------------
 1. open xls and read data with colname
 2. cycle with data
-2.1 read template
-2.2 cycle with var line
-2.2.1 find var and replace
-2.3 write data/out/.html file
-2.4 create data/out/.pdf
+2.1. read template
+2.2. cycle with var line
+2.2.1. find var and replace
+2.3. write data/out/.html file
+2.4. create data/out/.pdf
 3. exit
