@@ -17,7 +17,7 @@ The generated documents are located in the folder data/out/
 3. Your generated documents in data/out/
 
 ------------------------------
-How program works:
+     How program works:
 ------------------------------
 1. open xls and read data with colname
 2. cycle with data
