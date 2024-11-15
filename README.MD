@@ -15,8 +15,8 @@ The generated documents are located in the folder data/out/
 3. Your generated documents in data/out/
 
 ##     How program works:
-1. open xls and read data with colname
-2. cycle with data
+- Open xls and read data with colname
+- cycle with data
 - read template
   - cycle with var line
   - find var and replace
@@ -24,4 +24,4 @@ The generated documents are located in the folder data/out/
   - create data/out/.pdf
 - end cycle with var line
 - end cycle with data
-3. exit
+- exit
