@@ -18,10 +18,10 @@ The generated documents are located in the folder data/out/
 1. open xls and read data with colname
 2. cycle with data
 - read template
-- cycle with var line
--- find var and replace
--- write data/out/.html file
--- create data/out/.pdf
+  - cycle with var line
+  - find var and replace
+  - write data/out/.html file
+  - create data/out/.pdf
 - end cycle with var line
 - end cycle with data
 3. exit
